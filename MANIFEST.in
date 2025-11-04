@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include m365_role_sync *.css
+recursive-include m365_role_sync *.csv
+recursive-include m365_role_sync *.html
+recursive-include m365_role_sync *.ico
+recursive-include m365_role_sync *.js
+recursive-include m365_role_sync *.json
+recursive-include m365_role_sync *.md
+recursive-include m365_role_sync *.png
+recursive-include m365_role_sync *.py
+recursive-include m365_role_sync *.svg
+recursive-include m365_role_sync *.txt
+recursive-exclude m365_role_sync *.pyc
